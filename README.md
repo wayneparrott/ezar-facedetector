@@ -1,7 +1,8 @@
 # ezar-facedetector
-Face detection demo using ezAR Face Detector plugin for Cordova
+Face detection demo using ezAR Face Detector plugin for Cordova.  
+Detect and outline up to 5 faces.
 
-![](http://static1.squarespace.com/static/54d524d4e4b0f489aba79ed2/55310535e4b03253914c8657/55310564e4b086967b6ed7fb/1429276278307/ezar-compass.png)
+![](https://static1.squarespace.com/static/54d524d4e4b0f489aba79ed2/t/57dc112d1b631b6ed5af7a1c/1474040112289/facedetect1.png)
 ##Getting Started
 While ezAR works with Cordova-based SDKs such as Ionic, this example uses Cordova CLI examples are provided below. 
 Install or update your [Apache Cordova sdk](https://cordova.apache.org/)
