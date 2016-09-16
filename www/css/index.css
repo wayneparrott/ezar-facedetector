@@ -1,0 +1,72 @@
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color: transparent;
+    /* background-color: black; */
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+
+#camera {
+    height: 72px;
+    width: 72px;
+    position: fixed;
+    top: 50%;
+    left: 95%;
+    background: url("../img/camera_btn_72_01.png") no-repeat top;
+    transform: translate(-100%, -125%);
+    -webkit-transform: translate(-100%, -125%);
+}
+
+/*    
+#camera:active {
+    background: url("../img/camera_btn_72_04.png") no-repeat top;
+}
+*/
+
+#revcamera {
+    height: 72px;
+    width: 72px;
+    position: fixed;
+    top: 50%;
+    left: 95%;
+    background: url("../img/reverse-camera_72_1.png") no-repeat top;
+    transform: translate(-100%, 0%);
+    -webkit-transform: translate(-100%, 0%);
+}
+
+.face {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 1px;
+    height: 1px;
+    border: 1px solid darkorange;
+    border-radius: 5px;
+    background-color: rgba(255,69,0,0.25);
+    display: none;    
+}
+
+#face0 {
+}
+
+#face1 {
+}
+
+#face2 {
+}
+
+#face3 {
+}
+
+#face4 {
+}
