@@ -28,6 +28,11 @@ step-2.  Build and install on device
 *Note: because of the ezAR camera requirement the app will only perform correctly 
 when installed on a real mobile device.*
 
+##Use Alternative WebView
+The ezAR VideoOverlay plugin supports both standard and the alternative
+Crosswalk WebView for Android and WKWebView for iOS. To enable one of these
+alternative webviews comment the specific plugin entries in the config.xml file.
+
 ##ezAR Docs and Tech Support
 See [ezartech.com](http://ezartech.com) for documentation and support.
 

@@ -21,4 +21,9 @@
     <plugin name="com.ezartech.ezar.snapshot" spec="../../plugins/com.ezartech.ezar.snapshot" />
     <plugin name="com.ezartech.ezar.videooverlay" spec="../../plugins/com.ezartech.ezar.videoOverlay" />
     <plugin name="com.ezartech.ezar.facedetector" spec="../../plugins/com.ezartech.ezar.facedetector" />
+
+    <!--uncomment elements below to use alternative webviews-->
+    <!--<plugin name="cordova-plugin-crosswalk-webview" />-->
+    <!--<plugin name="cordova-plugin-wkwebview-engine" spec="https://github.com/driftyco/cordova-plugin-wkwebview-engine.git" />-->
+
 </widget>
