@@ -19,7 +19,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="com.ezartech.ezar.snapshot" spec="../../plugins/com.ezartech.ezar.snapshot" />
-    <plugin name="com.ezartech.ezar.videooverlay" spec="../../plugins/com.ezartech.ezar.videoOverlay" />
+    <plugin name="com.ezartech.ezar.videooverlay" spec="../../plugins/com.ezartech.ezar.videooverlay" />
     <plugin name="com.ezartech.ezar.facedetector" spec="../../plugins/com.ezartech.ezar.facedetector" />
 
     <!--uncomment elements below to use alternative webviews-->
