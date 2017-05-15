@@ -20,11 +20,11 @@ function init() {
         function() {
             ezar.getBackCamera().start(
                 setTimeout(
-                    function() {
-                        ezar.watchFaces(onFaces,err);
-                        enableFaceUpdate = true;
-                    }, 1500),
+                   function() {
+                       ezar.watchFaces(onFaces,err);
+                   }, 1500),
                 err);
+            enableFaceUpdate = true;
         }, err);    
 }
 
@@ -38,7 +38,8 @@ function onFaces(faces) {
     } else {
         faceCnt = Math.min(faces.length,MAX_FACES);
     }
-        
+
+
     for (var i=0; i < faceCnt; i++) {
         face = faces[i];
         faceEl = faceEls[i];
@@ -107,6 +108,7 @@ function showControls(aBool) {
  
 function reverseCamera() {
     console.log('reverse camera');
+    onFaces(null);
     var newCamera =
         ezar.getActiveCamera().getPosition() == 'BACK' ? 
         ezar.getFrontCamera() : ezar.getBackCamera();
